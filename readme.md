@@ -3,7 +3,7 @@ to run use "npm i" in the root directory of the project
 then type "npm start"
 
 
-#IMPORTANT 
+# IMPORTANT 
 prerequisites:- 
 node.js npm installed
 atlas(mongodb) account for database
