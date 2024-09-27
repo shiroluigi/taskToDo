@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="/taskpage.js"></script>
+    <link href="/taskview.css" rel="stylesheet" type="text/css">
+    <title>Task Page</title>
+</head>
+
+<body>
+    <button onclick="goback()"> back </button>
+    <div id="main">
+        <div id="centerf">
+            <span>
+                <label>New name:</label>
+                <input type="text" id="updateText" />
+            </span>
+            <span>
+                <label>ID:</label>
+                <label id="uid"></label>
+            </span>
+            <span>
+                <label>Previous name:</label>
+                <label id="pname"></label>
+            </span>
+            <span>
+                <label>Status:</label>
+                True
+                <input type="radio" id="rt" name="status" value="true">
+                False
+                <input type="radio" id="rf" name="status" value="false">
+            </span>
+            </span>
+            <span>
+                <button onclick="updateData()">SET</button>
+                <button onclick="reload()">RESET</button>
+                <button onclick="del()">Delete</button>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
