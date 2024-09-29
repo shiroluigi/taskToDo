@@ -62,7 +62,7 @@ const handleEvents = () => {
             // console.log(res)
             location.reload()
         })
-    },500) 
+    },1000) 
 }
 
 
